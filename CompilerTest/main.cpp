@@ -12,6 +12,11 @@
 //Crtl + 방향기 + 좌우
 //Home + End +(Shift)
 //Alt + Shift
+
+//솔루션 탐색창 열기 
+//ctrl + ;
+
+
 int main()
 {
 	Log("Hello World");
