@@ -60,7 +60,7 @@ int main()
 	Player player("RonnieJ");
 
 	//widde-character
-	//const wchar_t* wideString = L"Hello wide string";
+	//const wchar_t* wideString = L"Hello wide string"; //리터럴 문자를 wchar_t 타입으로 만들기 위해서는 L을 붙여야함
 	const wchar_t* wideString = MYTEXT("Hello wide string");
 
 	std::wcout << wideString << TEXT("\n"); // TEXT("\n") == L"\n"wchar_t W붙여서 cout cin 해야함, wcout wcin 
