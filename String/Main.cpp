@@ -1,5 +1,9 @@
 ﻿#include <iostream>
 //#include <string>
+#include <Windows.h> //#include <tchar.h>
+
+#define MYTEXT(value) L##value
+#define MYTEST(value1,value2) value1##value2 // ## 양쪽을 붙임
 
 
 // 클래스 내부에서 문자열 다루기
@@ -54,6 +58,14 @@ int main()
 
 	//객체 기반으로 문자열 사용
 	Player player("RonnieJ");
+
+	//widde-character
+	//const wchar_t* wideString = L"Hello wide string";
+	const wchar_t* wideString = MYTEXT("Hello wide string");
+
+	std::wcout << wideString << TEXT("\n"); // TEXT("\n") == L"\n"wchar_t W붙여서 cout cin 해야함, wcout wcin 
+
+	auto test = MYTEST(10, 20); //1020
 
 	std :: cin.get();
 

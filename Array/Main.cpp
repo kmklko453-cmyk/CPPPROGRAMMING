@@ -31,13 +31,13 @@ int main()
 	//arrayPointer[1] = 20;
 	*(arrayPointer + 1) = 20;
 
-	//배열 원소를 천제 읽기 (순회)
+	//배열 원소를 전체 읽기 (순회)
 	//range-based loop
 	// foreach
-	//for (const int& item : array)
-	//{
-	//	std::cout << item << "\n";
-	//}
+	for (const int& item : array)
+	{
+		std::cout << item << "\n";
+	}
 
 	PrintArray(array, 10);
 	/*for (int ix = 0; ix < 10; ix++)

@@ -29,16 +29,16 @@ int main()
 
 	//Todo 메모리 릭 일부러
 	int* intpointer = new int;
-	delete intpointer;
+	//delete intpointer;
 
 	//동적 할당
-	//char* buffer = new char[10];
+	char* buffer = new char[10];
 
 
 	// 포인터는 주소를 저장하는 변수.
 	//void* pointer = nullptr;
 	void* pointer = new int;
-	DeletePointer(pointer);
+	//DeletePointer(pointer);
 	//delete pointer;
 	//pointer = nullptr;
 
