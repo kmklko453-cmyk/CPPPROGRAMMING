@@ -61,8 +61,8 @@ int main()
 	//}
 
 	Entity* entity = new Entity();
-	std::cout << entity << "\n";
-	std::cout << entity->GetSelf() << "\n";
+	std::cout << entity << "\n";        //포인터 변수니까 주소값
+	std::cout << entity->GetSelf() << "\n"; //this도 포인터 자기 자신의 주소를 넘김
 
 
 	std::cin.get();

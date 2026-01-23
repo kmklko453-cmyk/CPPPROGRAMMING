@@ -2,9 +2,6 @@
 #include <iostream>;
 
 
-
-
-
 Player::Player(const char* inName) //안에 코드를 권장하지 않음(main에서 초기화) 멤버 이니셜라이즈 사용. : x(0), y(0), speed(0) 동적할당은 멤버 이니셜라이즈 사용x
 {
 	//동적 할당 및 문자열 복사

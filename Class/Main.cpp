@@ -22,7 +22,7 @@ int main()
 	player1.Move(5, 2);
 
 	//힙
-	Player* player2 = new Player("Ronnie");
+	Player* player2 = new Player("Ronnie"); //포인터 변수에 선언하면서 초기화 요번 예제에서 사용하는것 보다 권장됨
 	player2->Move(3, 1);
 	//(*player2).Move(3, 1); // 주소에 공간으로 이동하는 행위 (역참조) //2차 포인터 일 때 사용 (*player2)->Move( 3, 1);
 	delete player2;
