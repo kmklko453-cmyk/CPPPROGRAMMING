@@ -22,6 +22,7 @@ public:
 	// 자원 해제
 	//~Player() = default;
 	Player();
+	Player(const char* inName);
 	~Player();
 
 	// Setter(세터)
@@ -40,5 +41,9 @@ private:
 	int x = 0;
 	int y = 0;
 	int speed = 0;
+
+	// 이름 값(문자열)
+	char* name = nullptr;
+	//char name[10] = {}; //아이디 글자 제한 스택으로 사용
 
 };
