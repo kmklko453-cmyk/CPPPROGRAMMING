@@ -74,7 +74,7 @@ int main()
 	Point p3 = p1 + p2;
 	//Point p4[4];
 
-	std::cout <<"(" << p3.x <<"," <<p3.y <<")"<<"\n";
+	//std::cout <<"(" << p3.x <<"," <<p3.y <<")"<<"\n";
 	//std::cout.operator<<(p3);
 	//std::cout.operator<<(10).operator<<(30);  // 실제 cout 작동 방식
 	std::cout << p3 <<"\n";
