@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Template", "Template\Templa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileIO", "FileIO\FileIO.vcxproj", "{A6D27FD5-7C63-4D8C-A13F-85CB4301CD59}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FunctionPointer", "FunctionPointer\FunctionPointer.vcxproj", "{9818A0AD-9195-4F6F-A60A-AB414EF63145}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{A6D27FD5-7C63-4D8C-A13F-85CB4301CD59}.Release|x64.Build.0 = Release|x64
 		{A6D27FD5-7C63-4D8C-A13F-85CB4301CD59}.Release|x86.ActiveCfg = Release|Win32
 		{A6D27FD5-7C63-4D8C-A13F-85CB4301CD59}.Release|x86.Build.0 = Release|Win32
+		{9818A0AD-9195-4F6F-A60A-AB414EF63145}.Debug|x64.ActiveCfg = Debug|x64
+		{9818A0AD-9195-4F6F-A60A-AB414EF63145}.Debug|x64.Build.0 = Debug|x64
+		{9818A0AD-9195-4F6F-A60A-AB414EF63145}.Debug|x86.ActiveCfg = Debug|Win32
+		{9818A0AD-9195-4F6F-A60A-AB414EF63145}.Debug|x86.Build.0 = Debug|Win32
+		{9818A0AD-9195-4F6F-A60A-AB414EF63145}.Release|x64.ActiveCfg = Release|x64
+		{9818A0AD-9195-4F6F-A60A-AB414EF63145}.Release|x64.Build.0 = Release|x64
+		{9818A0AD-9195-4F6F-A60A-AB414EF63145}.Release|x86.ActiveCfg = Release|Win32
+		{9818A0AD-9195-4F6F-A60A-AB414EF63145}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
